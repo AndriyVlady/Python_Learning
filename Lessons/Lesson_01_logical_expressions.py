@@ -1,6 +1,4 @@
-age = int(input("Введите число: "))
-print("Вы ввели число:", age)
-
+# Lesson 01: Logical Expressions
 def number_check(num):
     if num == 0:
         return "\"Это НОЛЬ.\""
@@ -8,5 +6,11 @@ def number_check(num):
         return "\"Число четное.\""
     else:
         return "\"Число нечетное.\""
+age = input("Введите число: ")
 
-print ("Ваше число:", age, "-", number_check(age))
+try:
+    print("Вы ввели значение:", age)
+    age = int(age)
+    print ("Ваше число:", age, "-", number_check(age))
+except ValueError:
+    print("Ошибка: Введите корректное целое число.")
