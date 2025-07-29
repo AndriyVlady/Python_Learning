@@ -103,10 +103,3 @@ def run():
 
 # Что будет выведено на экран?
 print(run())
-
-# BEGIN (write your solution here)
-def say_hurray_three_times():
-    return 'hurray! hurray! hurray!'
-# END
-hurray = say_hurray_three_times()
-print(hurray)

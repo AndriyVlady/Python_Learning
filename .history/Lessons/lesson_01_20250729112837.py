@@ -96,17 +96,16 @@ name = 'Tirion'
 # Чему равен результат такого вызова?
 print(name[1:5].upper().find('I'))
 
-# Определение
-def run():
-    return 5
-    return 10
+from emails import send
+email = 'from emails import send
 
-# Что будет выведено на экран?
-print(run())
+email = 'support@hexlet.io'
+title = 'Помогите'
+body = 'Я написал историю успеха, как я могу получить скидку?'
 
-# BEGIN (write your solution here)
-def say_hurray_three_times():
-    return 'hurray! hurray! hurray!'
-# END
-hurray = say_hurray_three_times()
-print(hurray)
+# Один маленький вызов — много логики внутри
+send(email, title, body)'
+title = 'Помогите'
+body = 'Я написал историю успеха, как я могу получить скидку?'
+# Один маленький вызов — много логики внутри
+send(email, title, body)

@@ -105,8 +105,6 @@ def run():
 print(run())
 
 # BEGIN (write your solution here)
-def say_hurray_three_times():
+def say_hurray_three_times()
     return 'hurray! hurray! hurray!'
 # END
-hurray = say_hurray_three_times()
-print(hurray)

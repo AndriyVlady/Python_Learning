@@ -96,17 +96,3 @@ name = 'Tirion'
 # Чему равен результат такого вызова?
 print(name[1:5].upper().find('I'))
 
-# Определение
-def run():
-    return 5
-    return 10
-
-# Что будет выведено на экран?
-print(run())
-
-# BEGIN (write your solution here)
-def say_hurray_three_times():
-    return 'hurray! hurray! hurray!'
-# END
-hurray = say_hurray_three_times()
-print(hurray)
